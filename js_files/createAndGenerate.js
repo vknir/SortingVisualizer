@@ -17,7 +17,7 @@ function generateBars(unsortedArray){
     for(let i=0;i<numberOfBars;i++){
         let bar= document.createElement("div");
         bar.classList.add("bar");
-        bar.style.height=unsortedArray[i]*4+"px";
+        bar.style.height=unsortedArray[i]*3+"px";
        
         barsContainer.appendChild(bar);
     }
