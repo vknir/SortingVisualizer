@@ -14,8 +14,8 @@ async function bubbleSort(array){
                 let temp = array[j];
                 array[j]=array[j+1];
                 array[j+1]=temp;
-                a.height=array[j]*4+"px";
-                b.height=array[j+1]*4+"px";   
+                a.height=array[j]*3+"px";
+                b.height=array[j+1]*3+"px";   
             }
             a.backgroundColor='aqua';
             b.backgroundColor='aqua';
